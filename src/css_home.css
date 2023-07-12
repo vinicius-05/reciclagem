@@ -1,0 +1,35 @@
+.grid-container-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.grid-container-1 > img{
+    height: 75px; 
+    width: 75px;
+    margin-top: 30px;
+}
+
+.grid-container-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 30px 100px 40px 100px;
+}
+
+.grid-container-2 > div{
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.grid-container-2 > div > a > img{
+    width: 174px;
+    height: 300px;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+}
+
+.grid-container-2 > div > a > img:hover{
+    width: 194px;
+    height: 320px;
+}
